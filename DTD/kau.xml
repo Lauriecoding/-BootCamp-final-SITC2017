@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!--Repertorier les informations des participantes de sheisthecode--> 
+<!DOCTYPE KAU [
+	<!ELEMENT KAU (Identité)>
+    <!ELEMENT Identité (Nom, Prenoms,Genre,Date de naissance, lieu de naissance, situation Matrimoniale, Nombre d'enfant,telephone, email, ville, commune,Diplôme,Expérience*)>
+
+  <!ELEMENT Nom (#PCDATA)>
+  <!ELEMENT Prenoms (#PCDATA)>
+  <!ELEMENT Genre (#PCDATA)>
+  <!ELEMENT Date de Naissance (#PCDATA)>
+  <!ELEMENT Lieu de naissance (#PCDATA)>
+  <!ELEMENT Situation Matrimoniale(#PCDATA)>
+  <!ELEMENT Nombre d'enfant (#PCDATA)>
+  <!ELEMENT telephone (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT Ville (#PCDATA)>
+  <!ELEMENT Commune (#PCDATA)>
+  <!ELEMENT Diplôme (niveau,intitulé)>
+  <!ELEMENT Expérience (stage|emploi)>
+
+]>
+
+<!--Laurie Kaudjhis-->
+<nom> KAUDJHIS </nom>
+<prenoms>Chiadon Laurie</prenoms>
+<genre>Feminin</genre>
+<date_de_naissance>27-01-1992</date_de_naissance>
+<lieu_de_naissance>Port-Bouet</lieu_de_naissance>
+<situation_matrimoniale>Celibataire</situation_matrimoniale>
+<nombre_d_enfant>01</nombre_d_enfant>
+<telephone>48-80-75-50</telephone>
+<email>lauriesharvey2701@gmail.com</email>
+<ville>Abidjan</ville>
+<commune>Port-Bouet</commune>
+<diplôme>Licence, Reseau et Securite Informatique</diplôme>
+<experience>Stagiaire a sheisthecode</experience>
+
+
+
